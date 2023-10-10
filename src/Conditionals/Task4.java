@@ -19,9 +19,10 @@ public class Task4 {
             System.out.println("Данная точка находится в 2ой четверти координат.");
         } else if (x < 0 & y < 0) {
             System.out.println("Данная точка находится в 3ей четверти координат.");
-        }
-        else if (x < 0 & y > 0) {
+        } else if (x < 0 & y > 0) {
             System.out.println("Данная точка находится в 4ой четверти координат.");
+        } else if (x==0 & y==0){
+            System.out.println("Данная точка находится в начале координат");
         }
     }
 }

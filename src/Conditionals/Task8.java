@@ -14,10 +14,9 @@ public class Task8 {
         System.out.println("Введите номер года");
         int year = sc.nextInt();
 
-        if (year == 2000 || year == 2004 || year == 2008 || year == 2012 || year == 2016 || year == 2020 || year == 2024){
+        if (year%4==0){
             System.out.println("Данный год является високосным. В нем 366 дней.");
-        }
-        else {
+        } else {
             System.out.println("Данный год не является високосным. В нем 365 дней.");
         }
     }

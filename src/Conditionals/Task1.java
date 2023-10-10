@@ -11,11 +11,11 @@ public class Task1 {
         int a = 9;
         int b = 4;
 
-        if (a % 2 == 0) {
-            System.out.println(a + " является четным числом");
+        if (a % 2 != 0) {
+            System.out.println(a + " является нечетным числом");
         }
-        else if (b % 2 == 0) {
-            System.out.println(b + " является четным числом");
+        else if (b % 2 != 0) {
+            System.out.println(b + " является нечетным числом");
         }
     }
 }

@@ -16,8 +16,7 @@ public class Task3 {
         } else if (y==0) {
             y = y*x;
             System.out.println(y);
-        }
-    else if (y<0) {
+        } else if (y<0) {
         y = y/x;
         System.out.println(y);
     }
