@@ -4,11 +4,14 @@ package Arrays;
 
 public class Task7 {
     public static void main(String[] args) {
-        int [] array = new int[10];
-        for(int i = 1; i < 10; i++) {
+        int[] array = new int[10];
+        for (int i = 1; i < 10; i++) {
             array[i] = i;
         }
+        func(array);
+    }
 
+    public static void func (int[] array){
         int max1 = array[0];
         int max2 = array[0];
         for(int i = 0; i<array.length; i++){

@@ -11,10 +11,14 @@ public class Task11 {
         int min = 1;
         int max = 100;
         int compNumber = (int) Math.round(Math.random() * max);
+        func(min, max, compNumber);
+    }
 
-        System.out.println("Твое число " + compNumber  + " ? (1-ДА,0-НЕТ)");
+    public static void func(int min, int max, int compNumber) {
+        System.out.println("Твое число " + compNumber + " ? (1-ДА,0-НЕТ)");
+        Scanner scanner = new Scanner(System.in);
         int i = scanner.nextInt();
-        while (i !=1){
+        while (i != 1) {
             System.out.println("Твоё число больше " + compNumber + "? (1-ДА,0-НЕТ)");
             i = scanner.nextInt();
             if (i == 1) {
@@ -32,5 +36,5 @@ public class Task11 {
             }
         }
         System.out.println("Твоё число - " + compNumber);
-        }
     }
+}

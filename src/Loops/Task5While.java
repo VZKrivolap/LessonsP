@@ -10,6 +10,10 @@ public class Task5While {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        func(n);
+    }
+
+    public static void func(int n){
         int x =0;
         int y=1;
         int fibonachi = 0;

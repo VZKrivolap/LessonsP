@@ -6,10 +6,12 @@ package Loops;
 
 public class Task1For {
     public static void main(String[] args) {
-        int x = 1;
-        int n = 50;
-        for (x = 1; x*x<n;x++){
-            System.out.println(x*x);
+        func(1, 50);
+    }
+
+    public static void func(int x, int n) {
+        for (x = 1; x * x < n; x++) {
+            System.out.println(x * x);
         }
     }
 }

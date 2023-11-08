@@ -8,10 +8,10 @@ package Conditionals;
 
 public class Task5 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 1100;
-        int c = 1;
+        func(10, 1100, 1);
+    }
 
+    public static void func(int a, int b, int c) {
         if (a<=b+c & b<=a+c & c<=a+b){
             System.out.println("Такой треугольник существует");
         }

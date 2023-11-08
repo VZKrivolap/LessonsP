@@ -17,7 +17,10 @@ public class Task6 {
         int y = sc.nextInt();
         System.out.println("Введите радиус");
         int r = sc.nextInt();
+        func(x, y, r);
+    }
 
+    public static void func(int x, int y, int r) {
         if (x<=r & y<=r){
             System.out.println("Точка находится внутри круга");
         }
@@ -25,4 +28,5 @@ public class Task6 {
             System.out.println("Точка не находится внутри круга");
         }
     }
+
 }

@@ -10,9 +10,10 @@ package Conditionals;
 
 public class Task2 {
     public static void main(String[] args) {
-        int a = 100;
-        int b = 33;
+        func(8, 4);
+    }
 
+    public static void func( int a, int b) {
         if (a % b == 0) {
             System.out.println("Число " + a + " кратно числу " + b);
         } else {

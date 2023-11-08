@@ -8,6 +8,11 @@ public class Task2For {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
         int n = scanner.nextInt();
+
+        func(x,n);
+    }
+
+    public static void func(int x, int n){
         for (x=x; x<n;x++){
             System.out.println(x*x*x);
         }

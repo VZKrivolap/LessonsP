@@ -8,9 +8,19 @@ public class Task4For {
         Scanner scanner = new Scanner(System.in);
         int factorial = scanner.nextInt();
         int a = 1;
-        for (int i=0; i<factorial; i++){
-            a=a*factorial;
-           }
-        System.out.println(a);
+        System.out.print(factorial + "! = ");
+        func(a,factorial);
+    }
+
+    public static void func(int a, int factorial){
+
+        for (int i=1; i<=factorial; i++){
+            a *= i;
+            System.out.print(i); //!3 1 * 2 * 3   =   1 2 6
+            if(i<factorial){
+                System.out.print(" * ");
+            }
+        }
+        System.out.println(" = " + a);;
     }
 }

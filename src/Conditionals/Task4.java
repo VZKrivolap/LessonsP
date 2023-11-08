@@ -10,9 +10,10 @@ package Conditionals;
 
 public class Task4 {
     public static void main(String[] args) {
-        int x = -1;
-        int y = 2;
+        func(-1, 2);
+    }
 
+        public static void func(int x, int y){
         if (x > 0 & y > 0) {
             System.out.println("Данная точка находится в 1ой четверти координат.");
         } else if (x > 0 & y < 0) {

@@ -10,10 +10,13 @@ public class Task5For {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        func(n);
+    }
+
+    public static void func(int n){
         int x =0;
         int y=1;
         int fibonachi = 0;
-        System.out.println(x);
         for (int i = 1; i<n; i++) {
             fibonachi=x+y;
             y=x;

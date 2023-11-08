@@ -10,7 +10,10 @@ public class Task6While {
         int number = scanner.nextInt();
         int sum = 0;
         int current = 0;
+        func(number, sum, current);
+    }
 
+    public static void func(int number, int sum, int current){
         while (number != 0) {
             current = number % 10;
             if (current % 2 == 0) {

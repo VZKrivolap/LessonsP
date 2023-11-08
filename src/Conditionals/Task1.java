@@ -8,14 +8,17 @@ package Conditionals;
 public class Task1 {
     public static void main(String[] args) {
 
-        int a = 9;
-        int b = 4;
-
-        if (a % 2 != 0) {
-            System.out.println(a + " является нечетным числом");
-        }
-        else if (b % 2 != 0) {
-            System.out.println(b + " является нечетным числом");
-        }
+        func1(5, 4);
     }
-}
+
+        public static void func1 (int a, int b){
+            if (a % 2 != 0) {
+                System.out.println(a + " является нечетным числом");
+            }
+            else if (b % 2 != 0) {
+                System.out.println(b + " является нечетным числом");
+            }
+        }
+
+
+    }

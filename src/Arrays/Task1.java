@@ -7,25 +7,30 @@ import java.util.Arrays;
 
 public class Task1 {
     public static void main(String[] args) {
-        int [] array = new int[10];
-        for(int i = 1; i < 10; i++) {
+        int[] array = new int[10];
+        for (int i = 1; i < 10; i++) {
             array[i] = i;
         }
 
-        System.out.println(Arrays.toString(array));
-        int sum = 0;
-        int multipl = 1;
+        sum(array);
+        multipl(array);
+    }
 
+    public static void sum(int [] array){
+        int sum = 0;
         for (int i = 0; i<array.length; i++){
             sum = sum+array[i];
         }
         System.out.println(sum);
+    }
 
-        array [0] = 1;
-        System.out.println(Arrays.toString(array));
+    public static void multipl(int [] array){
+        int multipl = 1;
         for (int i = 0; i<array.length; i++){
             multipl = multipl*array[i];
         }
         System.out.println(multipl);
     }
+
+
 }

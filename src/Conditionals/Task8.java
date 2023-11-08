@@ -13,7 +13,10 @@ public class Task8 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите номер года");
         int year = sc.nextInt();
+        func(year);
+    }
 
+        public static void func(int year){
         if (year%4==0){
             System.out.println("Данный год является високосным. В нем 366 дней.");
         } else {

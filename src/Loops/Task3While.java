@@ -10,12 +10,15 @@ public class Task3While {
         int number = scanner.nextInt();
         int stepen = scanner.nextInt();
         int result = 1;
-        int i = 0;
 
-       do {
+    }
+
+    public static void func(int number, int stepen, int result){
+        int i = 0;
+    do {
             result=result*number;
             System.out.println(result);
             i++;
-        }  while (i<stepen);
+    }  while (i<stepen);
     }
 }

@@ -6,10 +6,14 @@ import java.util.Arrays;
 
 public class Task11 {
     public static void main(String[] args) {
-        int [] array = new int[10];
-        for(int i = 1; i < 10; i++) {
+        int[] array = new int[10];
+        for (int i = 1; i < 10; i++) {
             array[i] = i;
         }
+        func(array);
+    }
+
+    public static void func(int[] array){
         int maxIndex = 0;
         int minIndex = 0;
 

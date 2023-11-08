@@ -10,33 +10,39 @@ package Conditionals;
 
 import java.util.Scanner;
 
-public class Task7 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Площадь для какой фигуры необходимо вычислить? 1 - прямоугольник. 2 - треугольник. 3 - круг");
-        int f = sc.nextInt();
-
-        if (f == 1){
-            System.out.println("Введите длину стороны а");
-            int a = sc.nextInt();
-            System.out.println("Введите длину стороны b");
-            int b = sc.nextInt();
-            int s=a*b;
-            System.out.println("Площадь прямоугольника равна " + s);
-        } else if(f==2){
-            System.out.println("Введите длину стороны А");
-            int a = sc.nextInt();
-            System.out.println("Введине длину проведенной к этой стороне высоты");
-            int h = sc.nextInt();
-            int s=a/2*h;
-            System.out.println("Площадь треугольника равна " + s);
-        } else if(f==3){
-            System.out.println("Введите длину радиуса");
-            int r = sc.nextInt();
-            int s= (int) (3.14*(r*r));
-            System.out.println("Площадь треугольника равна " + s);
-        } else {
-            System.out.println("Введено некорректное значение");
-        }
-    }
-}
+//public class Task7 {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Площадь для какой фигуры необходимо вычислить? 1 - прямоугольник. 2 - треугольник. 3 - круг");
+//        int f = sc.nextInt();
+//
+//    }
+//
+//        public static void func(int f){
+//
+//
+//        }
+//        if (f == 1){
+//            System.out.println("Введите длину стороны а");
+//            int a = sc.nextInt();
+//            System.out.println("Введите длину стороны b");
+//            int b = sc.nextInt();
+//            int s=a*b;
+//            System.out.println("Площадь прямоугольника равна " + s);
+//        } else if(f==2){
+//            System.out.println("Введите длину стороны А");
+//            int a = sc.nextInt();
+//            System.out.println("Введине длину проведенной к этой стороне высоты");
+//            int h = sc.nextInt();
+//            int s=a/2*h;
+//            System.out.println("Площадь треугольника равна " + s);
+//        } else if(f==3){
+//            System.out.println("Введите длину радиуса");
+//            int r = sc.nextInt();
+//            int s= (int) (3.14*(r*r));
+//            System.out.println("Площадь треугольника равна " + s);
+//        } else {
+//            System.out.println("Введено некорректное значение");
+//        }
+//    }
+//}

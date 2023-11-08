@@ -8,12 +8,15 @@ public class Task4While {
         Scanner scanner = new Scanner(System.in);
         int factorial = scanner.nextInt();
         int a = 1;
-        int i = 0;
+        System.out.println(func(a, factorial));
+    }
 
+    public static int func(int a, int factorial){
+        int i = 0;
         while (i<factorial){
            a=a*factorial;
            i++;
         }
-        System.out.println(a);
+        return a;
     }
 }

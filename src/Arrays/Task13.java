@@ -6,7 +6,11 @@ package Arrays;
 
 public class Task13 {
     public static void main(String[] args) {
-        int [] array = {10, -5, 3, 2, 0, -1, 8, 0, 10, 3};
+        int[] array = {10, -5, 3, 2, 0, -1, 8, 0, 10, 3};
+        func(array);
+    }
+
+    public static void func(int[] array){
         int countMax = 0;
         int countMin = 0;
 

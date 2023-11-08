@@ -5,22 +5,27 @@ package Conditionals;
 
 import java.util.Scanner;
 
-public class Task10 {
-    public static void main(String[] args) {
-        int random = (int) Math.floor(Math.random() * 10);
-
-        int number;
-        do {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Угадайте число от 1 до 10");
-            number = sc.nextInt();
-            if (random == number) {
-                System.out.println("Вы угадали число!");
-            } else if (number > random) {
-                System.out.println("Не верно, число меньше вашего.");
-            } else if (number < random) {
-                System.out.println("Не верно, число больше вашего.");
-            }
-        } while (random != number);
-    }
-}
+//public class Task10 {
+//    public static void main(String[] args) {
+//        int random = (int) Math.floor(Math.random() * 10);
+//        System.out.println(random);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Угадайте число от 1 до 10");
+//        int number = sc.nextInt();
+//        func(number, random);
+//    }
+//
+//
+//        public static void func(int number, int random){
+//        random = (int) Math.floor(Math.random() * 10);
+//        do {
+//            if (random == number) {
+//                System.out.println("Вы угадали число!");
+//            } else if (number > random) {
+//                System.out.println("Не верно, число меньше вашего.");
+//            } else if (number < random) {
+//                System.out.println("Не верно, число больше вашего.");
+//            }
+//        } while (random != number);
+//    }
+//}
