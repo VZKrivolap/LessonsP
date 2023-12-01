@@ -20,7 +20,7 @@ public class Bankomat {
 
     public void transaction(Human human1, Human human2, int sum){
         human1.card.balance += sum;
-        human2.card.balance += sum;
+        human2.card.balance -= sum;
     }
 
     public void putMoney(Human human, int money){

@@ -1,13 +1,13 @@
 package HumanVSAliens;
 
-public class Alien {
-    int health;
+public class Alien extends Unit{
 
-    public Alien(int health) {
-        this.health = health;
+
+    public Alien(int health, int attack) {
+        super(health, attack);
     }
 
     public int attack(Human human){
-        return human.health -= 20;
+        return human.health -= attack;
     }
 }

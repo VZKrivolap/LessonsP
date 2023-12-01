@@ -1,8 +1,8 @@
 package ATM;
 
 public class Card {
-    int pin;
-    int balance;
+    private int pin;
+    private int balance;
 
     public void setPin(int pin) {
         this.pin = pin;
